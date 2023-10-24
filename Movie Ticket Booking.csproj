@@ -67,65 +67,65 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Admin.aspx" />
-    <Content Include="AdminAdd.aspx" />
-    <Content Include="AdminDelete.aspx" />
-    <Content Include="AdminPage.aspx" />
-    <Content Include="AdminUpdate.aspx" />
-    <Content Include="Confirmed.aspx" />
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\AdminAdd.aspx" />
+    <Content Include="Admin\AdminDelete.aspx" />
+    <Content Include="Admin\AdminPage.aspx" />
+    <Content Include="Admin\AdminUpdate.aspx" />
+    <Content Include="Booking\Confirmed.aspx" />
     <Content Include="Data\Movie.mdf" />
     <Content Include="Data\Movie_log.ldf">
       <DependentUpon>Movie.mdf</DependentUpon>
     </Content>
     <Content Include="home.aspx" />
-    <Content Include="Login.aspx" />
-    <Content Include="seats.png" />
-    <Content Include="ShowTimes.aspx" />
-    <Content Include="Register.aspx" />
-    <Content Include="seatBook.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Booking\seats.png" />
+    <Content Include="Booking\ShowTimes.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Booking\seatBook.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.aspx.cs">
+    <Compile Include="Admin\Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin.aspx.designer.cs">
+    <Compile Include="Admin\Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminAdd.aspx.cs">
+    <Compile Include="Admin\AdminAdd.aspx.cs">
       <DependentUpon>AdminAdd.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminAdd.aspx.designer.cs">
+    <Compile Include="Admin\AdminAdd.aspx.designer.cs">
       <DependentUpon>AdminAdd.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminDelete.aspx.cs">
+    <Compile Include="Admin\AdminDelete.aspx.cs">
       <DependentUpon>AdminDelete.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminDelete.aspx.designer.cs">
+    <Compile Include="Admin\AdminDelete.aspx.designer.cs">
       <DependentUpon>AdminDelete.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminPage.aspx.cs">
+    <Compile Include="Admin\AdminPage.aspx.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminPage.aspx.designer.cs">
+    <Compile Include="Admin\AdminPage.aspx.designer.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="AdminUpdate.aspx.cs">
+    <Compile Include="Admin\AdminUpdate.aspx.cs">
       <DependentUpon>AdminUpdate.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminUpdate.aspx.designer.cs">
+    <Compile Include="Admin\AdminUpdate.aspx.designer.cs">
       <DependentUpon>AdminUpdate.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Confirmed.aspx.cs">
+    <Compile Include="Booking\Confirmed.aspx.cs">
       <DependentUpon>Confirmed.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Confirmed.aspx.designer.cs">
+    <Compile Include="Booking\Confirmed.aspx.designer.cs">
       <DependentUpon>Confirmed.aspx</DependentUpon>
     </Compile>
     <Compile Include="home.aspx.cs">
@@ -135,33 +135,33 @@
     <Compile Include="home.aspx.designer.cs">
       <DependentUpon>home.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Login.aspx.cs">
+    <Compile Include="Account\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Login.aspx.designer.cs">
+    <Compile Include="Account\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ShowTimes.aspx.cs">
+    <Compile Include="Booking\ShowTimes.aspx.cs">
       <DependentUpon>ShowTimes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ShowTimes.aspx.designer.cs">
+    <Compile Include="Booking\ShowTimes.aspx.designer.cs">
       <DependentUpon>ShowTimes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Register.aspx.cs">
+    <Compile Include="Account\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Register.aspx.designer.cs">
+    <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
-    <Compile Include="seatBook.aspx.cs">
+    <Compile Include="Booking\seatBook.aspx.cs">
       <DependentUpon>seatBook.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="seatBook.aspx.designer.cs">
+    <Compile Include="Booking\seatBook.aspx.designer.cs">
       <DependentUpon>seatBook.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
